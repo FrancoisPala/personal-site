@@ -1,0 +1,42 @@
+@import 'colors';
+@import 'fonts';
+@import '../_common';
+
+#Presentation-vaporwave {
+    background: linear-gradient(to bottom, $vapor-main-one 0%, #5CCCBE 25%, $vapor-main-two 55%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    #nameLogo {
+        @extend #common-nameLogo;
+        padding: 5px 40px 5px 40px;
+        border: 4px dashed #444444;
+    }
+
+    #letsChat {
+        text-transform: uppercase;
+        font-size: 21px;
+        color: $vapor-main-one;
+        padding: 0 2px 0 4px;
+        text-decoration: none;
+        border: 4px solid $vapor-main-one;
+        background-color: $vapor-main-two;
+    }
+
+    h3 {
+        @extend #common-h3;
+        font-family: $vapor-presentation-h3;
+    }
+
+    p {
+        @extend #common-p;
+        font-family: $vapor-presentation-p;
+    }
+
+    mark {
+        color: $vapor-main-one;
+        background-color: $vapor-main-two;
+    }
+}
+

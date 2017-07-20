@@ -1,0 +1,21 @@
+@import 'colors';
+
+.mapBlock {
+    a {
+        font-size: 10px !important;
+    }
+    border: 10px solid;
+    height: 525px;
+    width: 49%;
+    bottom: 0;
+}
+
+#Map-leftBlock-outrun {
+    @extend .mapBlock;
+    border-color: $outrun-main-one;
+}
+
+#Map-rightBlock-outrun {
+    @extend .mapBlock;
+    border-color: $outrun-main-two;
+}

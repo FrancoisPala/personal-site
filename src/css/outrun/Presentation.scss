@@ -1,0 +1,41 @@
+@import 'colors';
+@import 'fonts';
+@import '../_common';
+
+#Presentation-outrun {
+    background: linear-gradient(to bottom, $outrun-main-one 0%, #5CCCBE 25%, $outrun-main-two 55%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    #nameLogo {
+        @extend #common-nameLogo;
+        padding: 5px 40px 5px 40px;
+        border: 4px double #444444;
+    }
+
+    #letsChat {
+        text-transform: uppercase;
+        font-size: 21px;
+        color: $outrun-main-one;
+        padding: 0 2px 0 4px;
+        text-decoration: none;
+        border: 4px solid $outrun-main-one;
+        background-color: $outrun-main-two;
+    }
+
+    h3 {
+        @extend #common-h3;
+        font-family: $outrun-presentation-h3;
+    }
+
+    p {
+        @extend #common-p;
+        font-family: $outrun-presentation-p;
+    }
+
+    mark {
+        color: $outrun-main-one;
+        background-color: $outrun-main-two;
+    }
+}

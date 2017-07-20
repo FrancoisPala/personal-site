@@ -10,12 +10,12 @@
     bottom: 0;
 }
 
-#Map-leftBlock {
+#Map-leftBlock-vaporwave {
     @extend .mapBlock;
-    border-color: $main-green;
+    border-color: $vapor-main-one;
 }
 
-#Map-rightBlock {
+#Map-rightBlock-vaporwave {
     @extend .mapBlock;
-    border-color: $main-pink;
+    border-color: $vapor-main-two;
 }
