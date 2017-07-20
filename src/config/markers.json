@@ -1,0 +1,36 @@
+{
+	"leftMap" : [
+		{"New York": {
+				"position": [40.741015, -73.989289],
+				"text": "Where I learned to manage projects, talk to clients, drive a car, love Trader Joe's, and never trust the MTA"
+			}
+		},
+		{"Long Beach": {
+				"position": [33.783806, -118.114037],
+				"text": "Where I learned node.js thanks to Guillaume Besson, visited Riot Games Headquarters thanks to Guillaume Besson and spent time to much time in a jacuzzi, thanks to Guillaume Besson"
+			}
+		},
+		{"Mitchell": {
+				"position": [43.709608, -98.030692],
+				"text": "What better place to crash a car? There's the Corn Palace!"
+			}
+		}
+	],
+	"rightMap": [
+		{"Epitech": {
+				"position": [48.81549737479911, 2.363004684448242],
+				"text": "Where I wrote my first lines of code and met my wife"
+			}
+		},
+		{"Kilix": {
+				"position": [48.826821, 2.223736],
+				"text": "Where I sharpened my node.js skills, discovered wonderful people and worked on a beast of a project"
+			}
+		},
+		{"Meudon": {
+				"position": [48.811880, 2.237157],
+				"text": "Where I grew up playing as many video games as the parents allowed it"
+			}
+		}
+	]
+}

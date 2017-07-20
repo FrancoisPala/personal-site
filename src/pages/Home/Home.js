@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../../css/vaporwave/index.css';
 import '../../css/vaporwave/Presentation.css';
 import '../../css/vaporwave/Map.css';
@@ -24,8 +23,8 @@ class Home extends Component {
                     {/*putain go integrer une api spotify reliee a une playlist qui sont mes decouvertes du moment ou qqc yess*/}
                 </p>
                 <div id='mapWrapper'>
-                    <Map id={`Map-leftBlock-${style}`} mapStyle={style} position={[37.6, -95.665]} zoom={4}/>
-                    <Map id={`Map-rightBlock-${style}`} mapStyle={style} position={[48.864716, 2.349014]} zoom={10}/>
+                    <Map id={`Map-leftBlock-${style}`} type='leftMap' mapStyle={style} position={[37.6, -95.665]} zoom={4}/>
+                    <Map id={`Map-rightBlock-${style}`} type='rightMap' mapStyle={style} position={[48.864716, 2.349014]} zoom={10}/>
                 </div>
             </div>
         );
