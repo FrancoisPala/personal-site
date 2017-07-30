@@ -1,10 +1,10 @@
 {
-	"vaporwave": {
-		"nameLogoSource": "vcrosd",
-		"nameLogoBorderStyle": "dashed"
-	},
-	"outrun": {
-		"nameLogoSource": "streamster",
-		"nameLogoBorderStyle": "double"
-	}
+    "vaporwave": {
+        "nameLogoSource": "vcrosd",
+        "nameLogoBorderStyle": "dashed"
+    },
+    "outrun": {
+        "nameLogoSource": "streamster",
+        "nameLogoBorderStyle": "double"
+    }
 }

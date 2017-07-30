@@ -1,0 +1,29 @@
+#menuButton {
+    background-color: transparentize(#ffffff, 0.9 );
+    border: none;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    
+}
+
+#dropdownContent {
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#dropdownContent a {
+    color: #999999;
+    margin: 5px;
+    text-decoration: unset
+}
+
+#menu:hover #dropdownContent {
+    display: block;
+}
+

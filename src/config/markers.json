@@ -1,36 +1,66 @@
 {
-	"leftMap" : [
-		{"New York": {
-				"position": [40.741015, -73.989289],
-				"text": "Where I learned to manage projects, talk to clients, drive a car, love Trader Joe's, and never trust the MTA"
-			}
-		},
-		{"Long Beach": {
-				"position": [33.783806, -118.114037],
-				"text": "Where I learned node.js thanks to Guillaume Besson, visited Riot Games Headquarters thanks to Guillaume Besson and spent time to much time in a jacuzzi, thanks to Guillaume Besson"
-			}
-		},
-		{"Mitchell": {
-				"position": [43.709608, -98.030692],
-				"text": "What better place to crash a car? There's the Corn Palace!"
-			}
-		}
-	],
-	"rightMap": [
-		{"Epitech": {
-				"position": [48.81549737479911, 2.363004684448242],
-				"text": "Where I wrote my first lines of code and met my wife"
-			}
-		},
-		{"Kilix": {
-				"position": [48.826821, 2.223736],
-				"text": "Where I sharpened my node.js skills, discovered wonderful people and worked on a beast of a project"
-			}
-		},
-		{"Meudon": {
-				"position": [48.811880, 2.237157],
-				"text": "Where I grew up playing as many video games as the parents allowed it"
-			}
-		}
-	]
+    "leftMap": [
+        {
+            "name": "New York", 
+            "position": [40.741015, -73.989289],
+            "text": "Where I learned to manage projects, talk to clients, drive a car, love Trader Joe's, and never trust the MTA"
+        },
+        {
+            "name": "Long Beach",
+            "position": [33.783806, -118.114037],
+            "text": "Where I learned node.js."
+        },
+        {
+            "name": "Mitchell",
+            "position": [43.709608, -98.030692],
+            "text": "What better place to crash a car? There's a Corn Palace!"
+        },
+        {
+            "name": "Texas",
+            "position": [33.151230, -97.514422],
+            "text": "Texas is not the best place to have your AC break down"
+        },
+        {
+            "name": "Montreal",
+            "position": [45.521774, -73.577676],
+            "text": "Finally had some real poutine. Did not regret finish other peep's plates."
+        }
+    ],
+    "rightMap": [
+        {
+            "name": "Epitech",
+            "position": [48.81549737479911, 2.363004684448242],
+            "text": "Where I wrote my first lines of code and met my wife"
+        },
+        {
+            "name": "Kilix",
+            "position": [48.826821, 2.223736],
+            "text": "Where I sharpened my node.js skills, discovered wonderful people and worked on a beast of a project"
+        },
+        {
+            "name": "Meudon",
+            "position": [48.811880, 2.237157],
+            "text": "Where I grew up playing as many video games as the parents allowed it"
+        },
+        {
+            "name": "CDG",
+            "position": [49.007304, 2.544498],
+            "text": "Weird slow teleportation device to the US"
+        },
+        {
+            "name": "DotJS",
+            "position": [48.903224, 2.366857],
+            "text": "Great DotJS Conference, 10/10 would recommend"
+        },
+        {
+            "name": "Le Bambou",
+            "position": [48.825172, 2.364782],
+            "text": "Best pho place in Paris"
+        },
+        {
+            "name": "Place Monge",
+            "position": [48.843119, 2.353749],
+            "text": "Bars!"
+        }
+    ]
 }

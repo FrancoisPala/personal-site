@@ -3,15 +3,12 @@
 @import '../_common';
 
 #Presentation-vaporwave {
+    @extend #common-Presentation;
     background: linear-gradient(to bottom, $vapor-main-one 0%, #5CCCBE 25%, $vapor-main-two 55%);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    
+
     #nameLogo {
         @extend #common-nameLogo;
         padding: 5px 40px 5px 40px;
-        border: 4px dashed #444444;
     }
 
     #letsChat {

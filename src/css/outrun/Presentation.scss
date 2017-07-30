@@ -3,15 +3,12 @@
 @import '../_common';
 
 #Presentation-outrun {
+    @extend #common-Presentation;
     background: linear-gradient(to bottom, $outrun-main-one 0%, #5CCCBE 25%, $outrun-main-two 55%);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 
     #nameLogo {
         @extend #common-nameLogo;
         padding: 5px 40px 5px 40px;
-        border: 4px double #444444;
     }
 
     #letsChat {

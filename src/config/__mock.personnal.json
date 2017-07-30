@@ -1,0 +1,4 @@
+{
+    "mapboxUrl": "your mapbox url such as https://api.mapbox.com/styles/v1/yourusername",
+    "mapboxApiKey": "your mapbox api key"
+}

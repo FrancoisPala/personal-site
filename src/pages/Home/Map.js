@@ -5,11 +5,11 @@ import Config from '../../config';
 class Map extends Component {
     render() {
         const mapStyle = this.props.mapStyle;
-        // console.log(Config.markers[this.props.type])
         const markers = Config.markers[this.props.type].map((marker, index) => 
-                <Marker key={index} position={marker[Object.keys(marker)].position}>
+                <Marker key={index} position={marker.position}>
                     <Popup>
-                        <p>{marker[Object.keys(marker)].text}</p>
+                        {/*<h3>{marker.name}</h3>*/}
+                        <p>{marker.text}</p>
                     </Popup>
                 </Marker>
             );
