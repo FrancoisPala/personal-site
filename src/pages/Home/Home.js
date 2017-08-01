@@ -5,6 +5,9 @@ import '../../css/vaporwave/Map.css';
 import '../../css/outrun/index.css';
 import '../../css/outrun/Presentation.css';
 import '../../css/outrun/Map.css';
+import '../../css/simple/index.css';
+import '../../css/simple/Presentation.css';
+import '../../css/simple/Map.css';
 
 import Menu from './Menu';
 import Map from './Map';
@@ -18,7 +21,7 @@ class Home extends Component {
                 <Menu />
                 <img id='nameLogo' src={require('../../assets/' + style  + '_name.svg')} alt="My Name"/>
                 <h3>BACK-END DEVELOPER</h3>
-                <p> Do you like Music? Video Games? Travelling? <a href='https://www.google.com' target='blank' id='letsChat'>Let's chat!</a><br />
+                <p> Do you like Music? Video Games? Travelling? <a href='https://www.linkedin.com/in/francoispala/' target='blank' id='letsChat'>Let's chat!</a><br />
                     <mark>I'm a node.js / react.js developer</mark>, soon-to-be based in New York City.<br />
                     <mark>I'm open for work</mark>, whether you're a big company, a startup or just want my freelance services.<br />
                     If you want to learn a little bit more about me, feel free to check both maps under this text :)<br />
