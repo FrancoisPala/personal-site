@@ -22,4 +22,4 @@ yarn-error.log*
 
 # personnal config
 /src/**/*.css
-/src/config/p*
+#/src/config/p*
