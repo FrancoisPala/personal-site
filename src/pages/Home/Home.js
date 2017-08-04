@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/vaporwave/index.css';
-import '../../css/vaporwave/Presentation.css';
-import '../../css/vaporwave/Map.css';
 import '../../css/outrun/index.css';
-import '../../css/outrun/Presentation.css';
-import '../../css/outrun/Map.css';
 import '../../css/simple/index.css';
-import '../../css/simple/Presentation.css';
-import '../../css/simple/Map.css';
 
 import Menu from './Menu';
 import Map from './Map';
