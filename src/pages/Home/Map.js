@@ -11,13 +11,15 @@ class Map extends Component {
 
             iconSize: [25, 37], // size of the icon
             iconAnchor: [0, 40], // point of the icon which will correspond to marker's location
-            // popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+            popupAnchor: [13, -25] // point from which the popup should open relative to the iconAnchor
         });
         const markers = Config.markers[this.props.type].map((marker, index) => 
                 <Marker key={index} position={marker.position} icon={LIcon}>
                     <Popup>
-                        {/*<h3>{marker.name}</h3>*/}
-                        <p>{marker.text}</p>
+                        <div>
+                            <h3>{marker.name}</h3>
+                            <p>{marker.text}</p>
+                        </div>
                     </Popup>
                 </Marker>
             );

@@ -14,8 +14,7 @@ import Map from './Map';
 
 class Home extends Component {
     render() {
-        const style = this.props.match.params.style;
-        // console.log(style);
+        const style = this.props.match.params.style ? this.props.match.params.style : 'outrun';
         return (
             <div id={`Presentation-${style}`}>
                 <Menu />
