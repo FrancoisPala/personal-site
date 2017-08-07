@@ -1,4 +1,4 @@
-import '../../css/Menu.css';
+import '../../css/index.css';
 import React, { Component } from 'react';
 
 class Dropdown extends Component {
