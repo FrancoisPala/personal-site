@@ -1,6 +1,7 @@
-#menuButton {
-    background-color: transparentize(#ffffff, 0.9 );
+.menuButton {
+    background-color: transparentize(#ffffff, 1 );
     border: none;
+    font-size: 14px;
 }
 
 #menu {
@@ -16,15 +17,14 @@
     display: none;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    a {
+        color: #999999;
+        margin: 5px;
+        text-decoration: unset
+    }
 }
 
-#dropdownContent a {
-    color: #999999;
-    margin: 5px;
-    text-decoration: unset
-}
-
-#menu:hover #dropdownContent {
+.menuButton:hover #dropdownContent {
     display: block;
 }
 

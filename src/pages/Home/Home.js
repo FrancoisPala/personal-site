@@ -15,7 +15,7 @@ const STYLES = [
 class Home extends Component {
     render() {
         const style = this.props.match.params.style ? this.props.match.params.style : 'outrun';
-        if (!R.contains(style, STYLES)) return (<Redirect to="/outrun" />);
+        if (!R.contains(style, STYLES)) return <Redirect to="/outrun" />;
         return (
             <div id={`Presentation-${style}`}>
                 <Menu />

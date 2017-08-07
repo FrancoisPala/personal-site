@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Map as LMap, Marker, Popup, TileLayer } from 'react-leaflet';
 import Config from '../../config';
 import L from 'leaflet';
+import '../../css/index.css';
 
 class Map extends Component {
     render() {
@@ -15,9 +16,9 @@ class Map extends Component {
         const markers = Config.markers[this.props.type].map((marker, index) => 
                 <Marker key={index} position={marker.position} icon={LIcon}>
                     <Popup>
-                        <div>
-                            <h3>{marker.name}</h3>
-                            <p>{marker.text}</p>
+                        <div id='popupWindow'>
+                            <h3 id="h3Popup">{marker.name}</h3>
+                            <p id="pPopup">{marker.text}</p>
                         </div>
                     </Popup>
                 </Marker>
