@@ -3,10 +3,10 @@
 
 #Map-leftBlock-simple {
     @extend .mapBlock;
-    border-color: $simple-main-two;
+    border-color: $simple-main-two !important;
 }
 
 #Map-rightBlock-simple {
     @extend .mapBlock;
-    border-color: $simple-main-two;
+    border-color: $simple-main-two !important;
 }

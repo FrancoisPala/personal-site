@@ -3,10 +3,10 @@
 
 #Map-leftBlock-outrun {
     @extend .mapBlock;
-    border-color: $outrun-main-one;
+    border-color: $outrun-main-one !important;
 }
 
 #Map-rightBlock-outrun {
     @extend .mapBlock;
-    border-color: $outrun-main-two;
+    border-color: $outrun-main-two !important;
 }

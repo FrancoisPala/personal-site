@@ -3,10 +3,10 @@
 
 #Map-leftBlock-vaporwave {
     @extend .mapBlock;
-    border-color: $vapor-main-one;
+    border-color: $vapor-main-one !important;
 }
 
 #Map-rightBlock-vaporwave {
     @extend .mapBlock;
-    border-color: $vapor-main-two;
+    border-color: $vapor-main-two !important;
 }

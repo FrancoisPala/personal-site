@@ -8,6 +8,7 @@
         "node-sass-chokidar": "^0.0.3",
         "npm-run-all": "^4.0.2",
         "prop-types": "^15.5.10",
+        "ramda": "^0.24.1",
         "react": "^15.6.1",
         "react-dom": "^15.6.1",
         "react-leaflet": "^1.4.0",

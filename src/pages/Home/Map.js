@@ -8,7 +8,6 @@ class Map extends Component {
         const mapStyle = this.props.mapStyle;
         const LIcon = L.icon({
             iconUrl: require(`./assets/icon_pin_${mapStyle}.png`),
-
             iconSize: [25, 37], // size of the icon
             iconAnchor: [0, 40], // point of the icon which will correspond to marker's location
             popupAnchor: [13, -25] // point from which the popup should open relative to the iconAnchor

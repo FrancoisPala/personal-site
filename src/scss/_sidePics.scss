@@ -1,0 +1,19 @@
+.sidepics {
+	height: 320px;
+	width: 280px;
+	position: absolute;
+	top: 70px;
+	z-index: 0;
+}
+
+#leftpic {
+	@extend .sidepics;
+	float: left;
+	transform: scaleX(-1);
+}
+
+#rightpic {
+	@extend .sidepics;
+	float: right;
+	right: 0;
+}
