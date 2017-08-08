@@ -4,14 +4,28 @@ body {
     font-family: sans-serif;
 }
 
+#maintext {
+    z-index: 1;
+}
+
+.mapWrapper {
+    margin-top: auto;
+    &.desktop {
+        flex-direction: row;
+        display: flex;
+    }
+    &.mobile {
+        flex-direction: column;
+    }
+}
+
 .mapBlock {
     a {
-        font-size: 10px !important;
+        font-size: 10px;
     }
     border: 10px solid;
     height: 525px;
-    width: 49%;
-    bottom: 0;
+    width: 100%;
 }
 
 #common-p {
@@ -35,18 +49,6 @@ body {
     margin-right: auto;
     margin-top: 50px;
     display: block;
-}
-
-.mapWrapper {
-    display: flex;
-    margin-top: auto;
-    .desktop {
-        flex-direction: row;
-    }
-    .mobile {
-        flex-direction: column;
-        width: 100%;
-    }
 }
 
 #common-Presentation {

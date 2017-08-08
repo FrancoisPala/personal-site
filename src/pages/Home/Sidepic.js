@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 // pas appeler le composant si il devrait pas exister
 class Sidepic extends Component {
     render () {

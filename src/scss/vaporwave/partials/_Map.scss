@@ -1,9 +1,11 @@
 #Map-leftBlock-vaporwave {
     @extend .mapBlock;
-    border-color: $vapor-main-one !important;
+    border-color: $vapor-main-one;
+    // width: 100%;
 }
 
 #Map-rightBlock-vaporwave {
     @extend .mapBlock;
-    border-color: $vapor-main-two !important;
+    border-color: $vapor-main-two;
+    // width: 100%;
 }
