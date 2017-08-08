@@ -1,6 +1,3 @@
-@import 'colors';
-@import '../_common.scss';
-
 #Map-leftBlock-simple {
     @extend .mapBlock;
     border-color: $simple-main-two !important;

@@ -4,6 +4,10 @@
     font-size: 14px;
 }
 
+.menuButton:hover #dropdownContent {
+    display: block;
+}
+
 #menu {
     position: absolute;
     top: 0;
@@ -23,8 +27,3 @@
         text-decoration: unset
     }
 }
-
-.menuButton:hover #dropdownContent {
-    display: block;
-}
-

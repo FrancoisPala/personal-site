@@ -1,7 +1,3 @@
-@import 'colors';
-@import 'fonts';
-@import '../_common';
-
 #Presentation-outrun {
     @extend #common-Presentation;
     background: linear-gradient(to bottom, $outrun-main-one 0%, #5CCCBE 25%, $outrun-main-two 55%);

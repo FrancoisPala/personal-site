@@ -1,7 +1,3 @@
-@import 'colors';
-@import 'fonts';
-@import '../_common';
-
 #Presentation-vaporwave {
     @extend #common-Presentation;
     background: linear-gradient(to bottom, $vapor-main-one 0%, #5CCCBE 25%, $vapor-main-two 55%);
