@@ -1,10 +1,12 @@
 {
     "vaporwave": {
         "nameLogoSource": "vcrosd",
-        "nameLogoBorderStyle": "dashed"
+        "nameLogoBorderStyle": "dashed",
+        "musicLink": "https://www.youtube.com/watch?v=cU8HrO7XuiE"
     },
     "outrun": {
         "nameLogoSource": "streamster",
-        "nameLogoBorderStyle": "double"
+        "nameLogoBorderStyle": "double",
+        "musicLink": "https://www.youtube.com/watch?v=pokXRs_xdeU&index=2&list=PLCuEH5Tl2B8qq-98aYCRPmsG16PXUmPRd"
     }
 }
