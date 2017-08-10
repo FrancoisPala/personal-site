@@ -51,7 +51,7 @@ class Home extends Component {
                     <mark>I'm open for work</mark>, whether you're a big company, a startup or just want my freelance services.<br />
                     If you want to learn a little bit more about me, feel free to check both maps under this text :)<br /></p>
                 {style !== 'simple' ? <Sidepic side='right' style={style}/> : null}
-                <p>Style better experienced listening to <MusicLink style={style}/></p>
+                {style !== 'simple' ? <p>Style better experienced listening to <MusicLink style={style}/></p> : null}
                 <div className={`mapWrapper ${isMobile}`}>
                     <Map id={`Map-leftBlock-${style}`} type='leftMap' mapStyle={style} position={[37.6, -95.665]} zoom={4}/>
                     <Map id={`Map-rightBlock-${style}`} type='rightMap' mapStyle={style} position={[48.864716, 2.349014]} zoom={10}/>
