@@ -9,14 +9,19 @@ body {
 }
 
 .mapWrapper {
-    margin-top: auto;
+    position: fixed;
+    width: 100%;
     height: 500px;
+    bottom: 20px;
     &.desktop {
         flex-direction: row;
         display: flex;
     }
     &.mobile {
         flex-direction: column;
+        display: block;
+        overflow: unset;
+        position: unset;
     }
 }
 
@@ -24,8 +29,10 @@ body {
     a {
         font-size: 10px;
     }
+    position: relative;
     border: 10px solid;
     width: 100%;
+    height: 100%; //doit etre la en mobile, pas en desktop
 }
 
 #common-p {
