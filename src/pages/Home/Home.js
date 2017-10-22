@@ -47,7 +47,7 @@ class Home extends Component {
                 <h3>BACK-END DEVELOPER</h3>
                 {style !== 'simple' && (width > 700) ? <Sidepic side='left' style={style}/> : null}
                 <p id='maintext'> Do you like Music? Video Games? Travelling? <a href='https://www.linkedin.com/in/francoispala/' target='blank' id='letsChat'>Let's chat!</a><br />
-                    <mark>I'm a node.js / react.js developer</mark>, soon-to-be based in New York City.<br />
+                    <mark>I'm a node.js / react.js developer</mark> based in New York City.<br />
                     <mark>I'm open for work</mark>, whether you're a big company, a startup or just want my freelance services.<br />
                     If you want to learn a little bit more about me, feel free to check both maps under this text :)<br /><br />
                     Style better experienced listening to <MusicLink style={style}/>
